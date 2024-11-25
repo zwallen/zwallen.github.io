@@ -53,6 +53,8 @@ ggsave("images/publications.png", g, width = 8, height = 2.8, device = "png")
 
 ```{=html}
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         ul {
             list-style-type: decimal;
