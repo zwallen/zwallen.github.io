@@ -1,1 +1,1 @@
-# zwallen.github.io
+Repository for the Quarto website project that deploys my personal website [zwallen.github.io](https://zwallen.github.io/). For more details on how to deploy your own website via Quarto, see the Quarto documentation for creating a website project (https://quarto.org/docs/websites/) and deploying the website via GitHub Pages (https://quarto.org/docs/publishing/github-pages.html).
