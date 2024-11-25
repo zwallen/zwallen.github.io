@@ -1,0 +1,137 @@
+---
+title: Professional Experience
+---
+
+```{=html}
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 10px;
+        }
+        img {
+            padding: 30px;
+            width: 200px;
+            float: left;
+        }
+    </style>
+</head>
+<div>
+    <p><a href="https://www.labcorp.com/">
+        <img src="images/Labcorp_logo.png" style="margin: 10px 0px 10px 0px" />
+    </a></p>
+    <ul>
+        <li><b>Senior Manager, Medical Bioinformatician</b></li>
+        <li>December 2022 - Present</li>
+        <li>
+            Evidence Generation, <a href="https://oncology.labcorp.com/">Labcorp Oncology</a>
+        </li>
+        <li>Durham, NC (Remote)</li>
+        <ul style="list-style-type: disc">
+            <li>Lead and support bioinformatic and statistical pipeline development initiatives aimed at generating new data and enabling existing data to create an enriched data resource for real-world clinical studies and publications utilizing 
+                <a href="https://oncology.labcorp.com/cancer-care-team/test-menu">Labcorp's precision oncology assays</a>
+            </li>
+            <li>Work closely with internal and external oncologists, pathologists and scientists within and outside of Labcorp Oncology to create analysis plans and perform bioinformatic and statistical data analyses for real-world clinical studies utilizing Labcorp’s precision oncology assays</li>
+            <li>Provide support for novel biomarker discovery initiatives through analysis of genomic and transcriptomic data derived from NGS-based genomic and immune profiling</li>
+            <li>Act as subject matter expert and provide expertise for bioinformatic and statistical analysis of omics data</li>
+        </ul>
+    </ul>
+</div>
+
+<div>
+    <p><a href="https://www.uab.edu/home/">
+        <img src="images/uab_logo.png" style="margin: 0px 0px 10px 0px">
+    </a></p>
+    <ul>
+        <li><b>Research Consultant</b></li>
+        <li>December 2022 - Present</li>
+        <li>University of Alabama at Birmingham</li>
+        <li>Birmingham, AL (Remote)</li>
+        <ul style="list-style-type: disc">
+            <li>Provide support for bioinformatics, data analytics, and writing of peer-reviewed research manuscripts for metagenomic-based research projects focusing on the role of the gut microbiome in Parkinson's disease</li>
+        </ul>
+    </ul>
+    <p><a href="https://www.uab.edu/home/">
+        <img src="images/uab_logo.png" style="margin: 20px 0px 10px 0px">
+    </a></p>
+    <ul>
+        <li><b>Postdoctoral Research Fellow</b></li>
+        <li>December 2020 - December 2022</li>
+        <li>
+            <a href="https://sites.uab.edu/payamilab/">Payami Lab</a>, 
+            <a href="https://www.uab.edu/medicine/cnet/">Center for Neurodegeneration and Experimental Therapeutics</a>
+        </li>
+        <li>University of Alabama at Birmingham</li>
+        <li>Birmingham, AL</li>
+        <ul style="list-style-type: disc">
+            <li>Bioinformatically processed shotgun metagenomic sequences from human and mouse fecal samples using a variety of tools for quality control of NGS reads and profiling of microbial abundances and genes/pathways</li>
+            <li>Quality controlled, imputed, and analyzed genome-wide genetic variant data comprised of >60M genetic variants for thousands of subjects using a variety of tools and statistical analyses (GWAS, interaction analysis)
+            <li>Quality controlled, cleaned, and managed (in electronic database) human subject data with >100 data points from questionnaires and electronic medical records</li>
+            <li>Performed statistical analyses spanning multiple fields (statistical genetics, microbial ecology, epidemiology, biostatistics) on processed microbial, genetic, and/or subject metadata to investigate research questions</li>
+            <li>Acted as bioinformatic analytic representative for the UAB site in the international 
+                <a href="https://www.nature.com/articles/s41588-020-00763-1">MiBioGen consortium</a>
+            </li>
+            <li>Contributed to writing and publishing of findings in peer-reviewed journals</li>
+            <li>Presented findings at institutional and national meetings to both lay and technical audiences</li>
+        </ul>
+    </ul>
+    <p><a href="https://www.uab.edu/home/">
+        <img src="images/uab_logo.png" style="margin: 20px 0px 10px 0px">
+    </a></p>
+    <ul>
+        <li><b>Graduate Research Assistant - PhD Research</b></li>
+        <li>August 2015 - December 2020</li>
+        <li>
+            <a href="https://sites.uab.edu/payamilab/">Payami Lab</a>, 
+            <a href="https://www.uab.edu/medicine/cnet/">Center for Neurodegeneration and Experimental Therapeutics</a>
+        </li>
+        <li>University of Alabama at Birmingham</li>
+        <li>Birmingham, AL</li>
+        <ul style="list-style-type: disc">
+            <li>Bioinformatically processed amplicon sequences of bacterial/archaeal 16S rRNA gene from human fecal samples using 
+                <a href="https://benjjneb.github.io/dada2/">DADA2</a> 
+            and other 
+                <a href="https://www.r-project.org/">R</a> 
+            packages and programs to infer taxa presence, abundances, and phylogenetic relatedness</li>
+            <li>Quality controlled, imputed, and analyzed genome-wide genetic variant data using a variety of tools and statistical analyses (GWAS, interaction analysis)</li>
+            <li>Quality controlled, cleaned, and managed (in electronic database) human subject data with >100 data points from questionnaires and electronic medical records</li>
+            <li>Assisted with intake, quality control, cleaning, and management of subject data with >100 data points from questionnaires and electronic medical records</li>
+            <li>Performed statistical analyses spanning multiple fields (statistical genetics, microbial ecology, epidemiology, biostatistics) on processed microbial, genetic, and/or subject metadata to investigate research questions</li>
+            <li>Acted as bioinformatic analytic representative for the UAB site in the international 
+                <a href="https://www.nature.com/articles/s41588-020-00763-1">MiBioGen consortium</a>
+            </li>
+            <li>Contributed to the writing and publishing of findings in peer-reviewed journals</li>
+            <li>Presented findings at institutional, regional, national, and international meetings to both lay and technical audiences</li>
+        </ul>
+    </ul>
+    <p><a href="https://www.uab.edu/home/">
+        <img src="images/uab_logo.png" style="margin: 0px 0px 10px 0px">
+    </a></p>
+    <ul>
+        <li><b>Graduate Trainee - Master's Research</b></li>
+        <li>August 2013 - April 2015</li>
+        <li>University of Alabama at Birmingham</li>
+        <li>Birmingham, AL</li>
+        <ul style="list-style-type: disc">
+            <li>Extracted DNA from buccal swabs of human volunteers using spin column based DNA extraction methods</li>
+            <li>Isolated and amplified the hypervariable region II (HVII) of human mitochondrial DNA using PCR</li>
+            <li>Sequenced HVII amplicons using Sanger sequencing and next generation sequencing (NGS)</li>
+            <li>Evaluated ability of NGS to reproducibly detect heteroplasmy in the HVII region of mitochondrial genome</li>
+            <li>Compared HVII sequences derived from Sanger sequencing and NGS to determine ability of NGS to detect heteroplasmy</li>
+        </ul>
+    </ul>
+    <p><a href="https://adfs.alabama.gov/Default">
+        <img src="images/adfs_logo.png" style="margin: 0px 0px 10px 0px" />
+    </a></p>
+    <ul>
+        <li><b>Combined DNA Index System (CODIS) Laboratory Intern</b></li>
+        <li>August 2013 - February 2015</li>
+        <li>Alabama Department of Forensic Sciences</li>
+        <li>Birmingham, AL</li>
+        <ul style="list-style-type: disc">
+            <li>Processed samples sent to the CODIS laboratory including data entry into the CODIS database</li>
+            <li>Performed laboratory work including blood sample preparation, calibration of instruments, reagent preparation, and PCR</li>
+        </ul>
+    </ul>
+</div>
+```

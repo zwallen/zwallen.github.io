@@ -1,0 +1,70 @@
+---
+title: "Education"
+---
+
+```{=html}
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 10px;
+        }
+        img {
+            padding: 30px;
+            width: 200px;
+            float: left;
+        }
+        .vertical-hr {
+	        margin: -8px 20px 0px 0px;
+	        width: 0.2%;
+	        float: left;	
+	        background-color: gray;
+        }
+    </style>
+</head>
+<div>
+    <p><a href="https://www.uab.edu/home/">
+        <img src="images/uab_logo.png" style="margin: 120px 0px 80px 0px">
+    </a></p>
+    <div class="vertical-hr" style="height: 350px"></div>
+    <ul>
+        <li><b>Doctor of Philosophy - Genetics</b></li>
+        <li>
+            <a href="https://www.uab.edu/medicine/cnet/training/tpin">Training Program in Neurodegeneration</a>, T32NS095775
+        </li>
+        <li>
+            <a href="https://www.uab.edu/gbs/home/">Graduate Biomedical Sciences</a>, University of Alabama at Birmingham
+        </li>
+        <li>Birmingham, AL, December 2020</li>
+    </ul>
+    <ul>
+        <li><b>Graduate Certificate - Mentoring and Leadership</b></li>
+        <li>
+            <a href="https://www.uab.edu/gbs/home/">Graduate Biomedical Sciences</a>, University of Alabama at Birmingham
+        </li>
+        <li>Birmingham, AL, December 2018</li>
+    </ul>
+    <ul> 
+        <li><b>Master of Science in Forensic Science</b></li>
+        <li>
+            <a href="https://www.uab.edu/cas/criminaljustice/">Department of Criminal Justice</a>, University of Alabama at Birmingham
+        </li>
+        <li>Birmingham, AL, April 2015</li>
+    </ul>
+</div>
+
+<div>
+    <p><a href="https://www.uncw.edu/">
+        <img src="images/uncw_logo.png" style="margin: 0px 0px 20px 0px">
+    </a></p>
+    <div class="vertical-hr" style="height: 125px"></div>
+    <ul>
+        <li><b>Bachelor of Science - Biology</b></li>
+        <li><b>Bachelor of Arts - Criminology</b></li>
+        <li>
+            <a href="https://uncw.edu/">University of North Carolina - Wilmington</a>
+        </li>
+        <li>Wilmington, NC, May 2013</li>
+    <ul>
+</div>
+```

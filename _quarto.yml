@@ -1,0 +1,45 @@
+project:
+  type: website
+
+website:
+  title: "Zachary D Wallen"
+  navbar:
+    background: gray
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - contact.qmd
+    right:
+      - icon: google
+        href: https://scholar.google.com/citations?user=rGDl8MAAAAAJ&hl=en
+      - icon: linkedin
+        href: https://linkedin.com/in/zacharydwallen
+      - icon: github
+        href: https://github.com/zwallen
+      - icon: chat-left-text-fill
+        href: https://bsky.app/profile/zdwallen.bsky.social
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Professional Summary"
+        href: profsumm.qmd
+      - text: "Education"
+        href: education.qmd
+      - text: "Experience"
+        href: experience.qmd
+      - text: "Publications"
+        href: pubs.qmd
+      - text: "Scientific Presentations"
+        href: presentations.qmd
+  page-footer: "Copyright 2024, Zachary Wallen" 
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: false
+
+
+

@@ -1,0 +1,10 @@
+---
+title: "Zachary D Wallen, PhD, MS"
+subtitle: "Computational Scientist / Statistical Genetics, Genomics, Metagenomics, Gene-Environment Interaction, Clinical and Real-World Data Analysis"
+---
+
+![](images/headshot.png){width=40%}
+
+# Bio
+
+Dr. Wallen is a computational scientist with research experience in statistical genetics/genomics, metagenomics, cancer genomics, clinical data analysis, and gene-environment interaction. He completed his PhD in Genetics and 2 years of postdoctoral training in the lab of Dr. Haydeh Payami at the University of Alabama at Birmingham's Center for Neurodegeneration and Experimental Therapeutics. During his PhD and postdoc, he performed human genetic and metagenomic research involving the integration and interrogation of molecular, exposure, and clinical data using methodologies from the fields of statistical genetics, microbial ecology, biostatistics, epidemiology, and machine learning. He joined the Labcorp Oncology Evidence Generation team in 2022 as a Senior Manager and Medical Bioinformatician where he leads and supports clinical research studies and bioinformatic pipeline development involving Labcorp's array of next-generation sequencing-based precision oncology assays. He also enjoys consulting and collaborating on all things data analytics and bioinformatics, so feel free to reach out!

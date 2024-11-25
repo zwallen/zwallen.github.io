@@ -1,0 +1,160 @@
+---
+title: "Scientific Presentations"
+---
+
+```{r presentations, echo=FALSE, message=FALSE, warnings=FALSE}
+suppressWarnings(library(ggplot2))
+suppressWarnings(library(geomtextpath))
+suppressWarnings(library(stringr))
+#### Create bar plot of poster vs oral presentations ####
+plot.data <- data.frame(
+  x = c(
+    "Poster",
+    "Oral"
+  ),
+  y = c(16, 7)
+)
+plot.data$x <- factor(plot.data$x, levels = plot.data$x)
+g <- ggplot(plot.data, aes(x = x, y = y, fill = x)) +
+  geom_col(show.legend = FALSE) +
+  scale_y_continuous(breaks = seq_len(max(plot.data$y)), minor_breaks = NULL) +
+  theme_bw() +
+  labs(title = "Presentation type", x = "", y = "") +
+  theme(
+    plot.title = element_text(size = 10, hjust = 0.5),
+    axis.text.y = element_text(size = 10),
+    axis.text.x = element_text(size = 10, angle = 25, hjust = 1),
+    plot.margin = margin(0.25, 0.25, 0, 0, "cm")
+  )
+ggsave("images/poster_vs_oral.png", g, width = 1.5, height = 3, device = "png")
+#### Create bar plot of institutional, regional, national, international presentations ####
+plot.data <- data.frame(
+  x = c(
+    "Institutional",
+    "Regional",
+    "National",
+    "International"
+  ),
+  y = c(9, 2, 6, 3)
+)
+plot.data$x <- factor(plot.data$x, levels = plot.data$x)
+g <- ggplot(plot.data, aes(x = x, y = y, fill = x)) +
+  geom_col(show.legend = FALSE) +
+  scale_y_continuous(breaks = seq_len(max(plot.data$y)), minor_breaks = NULL) +
+  theme_bw() +
+  labs(title = "Presentation audience", x = "", y = "") +
+  theme(
+    plot.title = element_text(size = 10, hjust = 0.5),
+    axis.text.y = element_text(size = 10),
+    axis.text.x = element_text(size = 10, angle = 25, hjust = 1),
+    plot.margin = margin(0.25, 0.25, 0, 0, "cm")
+  )
+ggsave("images/presentation_audiences.png", g, width = 3, height = 3, device = "png")
+#### Create bar plot of meeting focuses ####
+plot.data <- data.frame(
+  x = c(
+    "Neurology",
+    "Oncology",
+    "Genetics",
+    "Microbiology",
+    "Informatics",
+    "Aging"
+  ),
+  y = c(10, 4, 2, 2, 1, 1)
+)
+plot.data$x <- factor(plot.data$x, levels = plot.data$x)
+g <- ggplot(plot.data, aes(x = x, y = y, fill = x)) +
+  geom_col(show.legend = FALSE) +
+  scale_y_continuous(breaks = seq_len(max(plot.data$y)), minor_breaks = NULL) +
+  theme_bw() +
+  labs(title = "Scientific discipline of conference", x = "", y = "") +
+  theme(
+    plot.title = element_text(size = 15, hjust = 0.5),
+    axis.text.y = element_text(size = 15),
+    axis.text.x = element_text(size = 15, angle = 25, hjust = 1),
+    plot.margin = margin(0.25, 0.25, 0, 0, "cm")
+  )
+ggsave("images/meeting_types.png", g, width = 4.5, height = 4.25, device = "png")
+```
+
+![](images/poster_vs_oral.png){height=300px}
+![](images/presentation_audiences.png){height=300px}
+![](images/meeting_types.png){height=300px}
+
+```{=html}
+<head>
+    <style>
+        ul {
+            list-style-type: decimal;
+            padding: 10px;
+        }
+        li {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<div>
+    <ul>
+        <li>
+            <b>Wallen ZD</b>, Strickland KC, Barnes S, Pabla S, Nesline MK, Conroy JM, Brooks S, Jensen TJ, Caveney B, Eisenberg M, Severson EA, Wise SC, Ramkissoon S. Immune gene expression-based biomarkers of the tumor immune microenvironment associated with variable response to immunotherapies in syngeneic mouse models of human cancers. Poster presentation. Society for Immunotherapy of Cancer (SITC), November 2024, Houston, TX, USA. <a href="https://doi.org/10.1136/jitc-2024-SITC2024.0010">https://doi.org/10.1136/jitc-2024-SITC2024.0010</a>
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Nesline MK, Pabla S, Gao S, Vanroey E, Hastings SB, Strickland KC, Previs RA, Zhang S, Conroy JM, Jensen TJ, George E, Eisenberg M, Caveney B, Sathyan P, Reddy P, Severson EA, Ramkissoon SH. A Consensus-Based Machine Learning Framework to Determine Genetically Inferred Ancestry (GIA) from Comprehensive Genomic Profiling (CGP) Sequencing Results. Poster presentation. Association for Molecular Pathology (AMP), November 2023, Salt Lake City, UT, USA. <a href="https://doi.org/10.1016/S1525-1578(23)00249-0">https://doi.org/10.1016/S1525-1578(23)00249-0</a>
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Seager RJ, Pabla S, Nesline MK, Vanroey E, Gao S, Senosain MF, Hastings SB, Strickland KC, Previs RA, Zhang S, Conroy JM, Jensen TJ, Eisenberg M, Caveney B, Reddy P, Severson EA, Ramkissoon SH. Distinct immunotherapy immune response phenotypes in non-small cell lung cancer present with unique genomic alteration profiles. Poster presentation. Society for Immunotherapy of Cancer (SITC), November 2023, San Diego, CA, USA. <a href="https://doi.org/10.1136/jitc-2023-SITC2023.0184">https://doi.org/10.1136/jitc-2023-SITC2023.0184</a>
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Ko H, Nesline MK, Hastings SB, Strickland KC, Previs RA, Zhang S, Pabla S, Conroy JM, Jackson JB, Saini KS, Jensen TJ, Eisenberg M, Caveney B, Sathyan P, Severson EA, Ramkissoon SH. Comprehensive genomic and immune profiling (CGIP) reveals a distinct genomic and immune gene expression profile for younger patients with non-small cell lung cancer (NSCLC). Poster presentation. Society for Immunotherapy of Cancer (SITC), November 2023, San Diego, CA, USA. <a href="https://doi.org/10.1136/jitc-2023-SITC2023.0183">https://doi.org/10.1136/jitc-2023-SITC2023.0183</a>
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Demirkan A, Twa G, Cohen G, Dean MN, Standaert DG, Sampson T, Payami H. Metagenomics of Parkinson's disease implicates the gut microbiome in multiple disease mechanisms. Invited oral presentation. Alabama Udall Center and UAB Alzheimer’s Disease Research Center (ADRC) 2022 Retreat, November 2022, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Demirkan A, Twa G, Cohen G, Dean MN, Standaert DG, Sampson T, Payami H. Metagenomics of Parkinson's disease implicates the gut microbiome in multiple disease mechanisms. ePoster presentation. Aligning Science Across Parkinson's (ASAP) Celebration of Scientific Achievement (COSA) 2022, October 2022, online/international.
+        </li>
+        <li>
+            <b>Wallen ZD</b>. Comparison study of sixteen differential abundance testing methods using two large Parkinson disease gut microbiome datasets. Oral presentation. World Microbe Forum (an ASM and FEMS collaboration), June 2021, online/international.
+        </li>
+        <li>
+            <b>Wallen ZD</b>. Comparison study of sixteen differential abundance testing methods using two large Parkinson disease gut microbiome datasets. Oral presentation. Annual Translational and Transformative Informatics Symposium (ATTIS), April 2021, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Appah M, Dean MN, Sesler CL, Factor SA, Molho E, Zabetian CP, Standaert DG, Payami H. Characterizing dysbiosis of gut microbiome in PD: evidence for overabundance of opportunistic pathogens. ePoster presentation and oral presentation. Virtual UAB Microbiome Center Symposium, January 2021, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Appah M, Sesler CL, Dean MN, Factor SA, Molho E, Standaert DG, Zabetian CP, Payami H. Large multi-center study reveals robust and replicable evidence for dysbiosis of gut microbiome in PD. Poster presentation. Center for Neurodegeneration and Experimental Therapeutics 2020 Retreat, February 2020, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Appah M, Sesler CL, Dean MN, Factor SA, Molho E, Standaert DG, Zabetian CP, Payami H. Large multi-center study reveals robust and replicable evidence for dysbiosis of gut microbiome in PD. Poster presentation. UAB Aging Symposium, October 2019, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Appah M, Sesler CL, Dean MN, Factor SA, Molho E, Standaert DG, Zabetian CP, Payami H. Large multi-center study reveals robust and replicable evidence for dysbiosis of gut microbiome in PD. Poster presentation. Comprehensive Neuroscience Center Retreat, October 2019, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Appah M, Sesler CL, Dean MN, Factor SA, Molho E, Standaert DG, Zabetian CP, Payami H. Large multi-center study reveals robust and replicable evidence for dysbiosis of gut microbiome in PD. Poster presentation. 5th World Parkinson Congress, June 2019, Kyoto, Japan. <a href="https://doi.org/10.3233/JPD-199900">https://doi.org/10.3233/JPD-199900</a>
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Zabetian CP, Factor SA, Molho E, Standaert DG, Payami H. Robust and replicable associations between gut microbiota and Parkinson disease. Poster presentation. Center for Neurodegeneration and Experimental Therapeutics 2019 Retreat, March 2019, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Zabetian CP, Factor SA, Molho E, Standaert DG, Payami H. Replicable and robust associations between gut microbiota and Parkinson disease. Poster presentation. Comprehensive Neuroscience Center Retreat, October 2018, Birmingham, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Zabetian CP, Factor SA, Molho E, Standaert DG, Payami H. Replicable and robust associations between gut microbiota and Parkinson disease. Oral presentation. Inaugural Southeastern Neurodegenerative Disease Conference, September 2018, Orlando, FL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Zabetian CP, Knight R, Factor SA, Molho E, Payami H. Interplay of genetic risk at SNCA locus and dysbiosis of gut microbiome in Parkinson's disease. Poster presentation. Annual UAB Genetics/HudsonAlpha Scientific Retreat, October 2017, Huntsville, AL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Zabetian CP, Knight R, Factor SA, Molho E, Payami H. Interplay of genetic risk at SNCA locus and dysbiosis of gut microbiome in Parkinson's disease. Poster presentation. The American Society of Human Genetics, October 2017, Orlando, FL, USA.
+        </li>
+        <li>
+            <b>Wallen ZD</b>, Zabetian CP, Knight R, Factor SA, Molho E, Payami H. Interplay of genetic risk at SNCA locus and dysbiosis of gut microbiome in Parkinson's disease. Oral and poster presentation. American Neurological Association, October 2017, San Diego, CA, USA.
+        </li>
+        <li>
+            Hill-Burns EM, Debelius JW, Morton JT, Wissemann WT, Lewis MR, <b>Wallen ZD</b>, Peddada SD, Factor SA, Molho E, Zabetian CP, Knight R, Payami H. Evidence for PD and PD medication signatures on the gut microbiome. Oral and poster presentation. Center for Neurodegeneration and Experimental Therapeutics 2017 Retreat, March 2017, Birmingham, AL, USA.
+        </li>
+    </ul>
+</div>
+```
