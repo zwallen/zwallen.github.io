@@ -148,7 +148,7 @@ ggsave("images/skills.png", g, height = 8, width = 8, device = "png")
                 <li>Variant calling</li>
                 <li>Variant quality control</li>
                 <li>Software management</li>
-                <li>Data transport/storage</li>
+                <li>Data storage</li>
             </ul>
         </div>
         <div class="box data-management">
@@ -162,7 +162,7 @@ ggsave("images/skills.png", g, height = 8, width = 8, device = "png")
                 <li>Database design</li>
                 <li>Database management</li>
                 <li>Database query</li>
-                <li>Public databases/datasets</li>
+                <li>Public databases and datasets</li>
                 <li>Security</li>
                 <li>Electronic medical records</li>
                 <li>Microsoft Excel</li>
