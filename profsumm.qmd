@@ -55,7 +55,7 @@ ggsave("images/skills.png", g, height = 8, width = 8, device = "png")
             gap: 10px;
         }
         .box {
-            width: 32%;
+            width: 45%;
             padding: 10px;
             border-radius: 5px;
             font-family: 'Arial', sans-serif;
