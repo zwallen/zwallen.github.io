@@ -68,6 +68,9 @@ ggsave("images/publications.png", g, width = 8, height = 2.8, device = "png")
 <div>
     <ul>
         <li>
+            <b>Wallen ZD</b>, Nesline MK, Tierno M, Roos A, Schnettler E, Husain H, Sathyan P, Caveney B, Eisenberg M, Severson EA, Ramkissoon S. Genomic profiling of NSCLC tumors with the TruSight oncology 500 assay provides broad coverage of clinically actionable genomic alterations and detection of known and novel associations between genomic alterations, TMB, and PD-L1. <i>Front Oncol</i>. 14:1473327 (2024). <a href="https://doi.org/10.3389/fonc.2024.1473327">https://doi.org/10.3389/fonc.2024.1473327</a>.
+        </li>
+        <li>
             <b>Wallen ZD</b>, Nesline MK, Pabla S, Gao S, Vanroey E, Hastings SB, Ko H, Strickland KC, Previs RA, Zhang S, Conroy JM, Jensen TJ, George E, Eisenberg M, Caveney B, Sathyan P, Ramkissoon S, Severson EA. A consensus-based classification workflow to determine genetically inferred ancestry from comprehensive genomic profiling of patients with solid tumors. <i>Brief Bioinform</i>. 25(6):bbae557 (2024). <a href="https://doi.org/10.1093/bib/bbae557">https://doi.org/10.1093/bib/bbae557</a>.
         </li>
         <li>
