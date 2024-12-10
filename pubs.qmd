@@ -68,6 +68,9 @@ ggsave("images/publications.png", g, width = 8, height = 2.8, device = "png")
 <div>
     <ul>
         <li>
+            Sampson TR, <b>Wallen ZD</b>, Woong-Jai W, Standaert DG, Payami H, Harms AS. Alpha synuclein overexpression can drive microbiome dysbiosis in mice. <i>Sci Reports</i>. <i>In Press</i> (2024). <a href="https://doi.org/10.1038/s41598-024-82139-7.1473327">https://doi.org/10.1038/s41598-024-82139-7</a>.
+        </li>
+        <li>
             <b>Wallen ZD</b>, Nesline MK, Tierno M, Roos A, Schnettler E, Husain H, Sathyan P, Caveney B, Eisenberg M, Severson EA, Ramkissoon S. Genomic profiling of NSCLC tumors with the TruSight oncology 500 assay provides broad coverage of clinically actionable genomic alterations and detection of known and novel associations between genomic alterations, TMB, and PD-L1. <i>Front Oncol</i>. 14:1473327 (2024). <a href="https://doi.org/10.3389/fonc.2024.1473327">https://doi.org/10.3389/fonc.2024.1473327</a>.
         </li>
         <li>
